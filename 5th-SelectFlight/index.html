@@ -1,88 +1,117 @@
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+    <script src="script.js"></script>
+</head>
 
-  <body class="relative bg-white flex justify-center items-center min-h-screen">
+<body class="relative bg-white flex justify-center items-center min-h-screen">
+    <div class="absolute z-10 right-10 bottom-0 bg-[#f6a626] w-3/5 h-5/6 rounded-xl"></div>
     <div
-      class="absolute z-10 right-10 bottom-0 bg-[#f6a626] w-3/5 h-5/6 rounded-xl"
-    ></div>
-    <div
-      class="absolute z-20 bg-white text-[#181028] p-8 space-y-6 shadow-lg rounded-md w-auto flex flex-col items-center justify-center" 
-    >
-      <!-- icon -->
-      <div
-        class="border-2 border-[#dcdde9] rounded rounded-full flex justify-center items-center"
-      >
-        <svg
-          class="w-8 m-3"
-          version="1.1"
-          id="svg2"
-          xmlns:dc="http://purl.org/dc/elements/1.1/"
-          xmlns:cc="http://creativecommons.org/ns#"
-          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-          xmlns:svg="http://www.w3.org/2000/svg"
-          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-          sodipodi:docname="plane.svg"
-          inkscape:version="0.48.4 r9939"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          viewBox="0 0 1200 1200"
-          enable-background="new 0 0 1200 1200"
-          xml:space="preserve"
-          fill="#22294f"
-        >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            <path
-              id="path16765"
-              inkscape:connector-curvature="0"
-              d="M321,1164h120l269.28-480.06H1020c0,0,180,0,180-83.94c0-84-180-84-180-84 H710.28L441,36H321l149.28,480H255.06L120,395.94H0l96.06,204L0,804h120l135.06-120.06h215.22L321,1164z"
-            ></path>
-          </g>
-        </svg>
-      </div>
-      <!-- path -->
-      <div class="flex flex-row my-2">
-        <p class="text-[#4a4b65] text-md font-semibold mx-4">Bucharset | OTP</p>
+        class="absolute z-20 bg-white text-[#181028] p-8 space-y-6 shadow-lg rounded-md w-auto flex flex-col items-center justify-center">
+        <!-- icon -->
+        <div class="border-2 border-[#dcdde9] rounded rounded-full flex justify-center items-center">
+            <svg class="w-8 m-3" version="1.1" id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="plane.svg"
+                inkscape:version="0.48.4 r9939" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200"
+                xml:space="preserve" fill="#22294f">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path id="path16765" inkscape:connector-curvature="0"
+                        d="M321,1164h120l269.28-480.06H1020c0,0,180,0,180-83.94c0-84-180-84-180-84 H710.28L441,36H321l149.28,480H255.06L120,395.94H0l96.06,204L0,804h120l135.06-120.06h215.22L321,1164z">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <!-- path -->
+        <div class="flex flex-row my-2">
+            <p class="text-[#4a4b65] text-md font-semibold mx-4">Bucharset | OTP</p>
 
-        <!-- svg -->
-        <svg
-          class="w-6"
-          fill="#4a4b65"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            <path
-              d="M16.707,18.707a1,1,0,0,1-1.414-1.414L19.586,13H2a1,1,0,0,1,0-2H19.586L15.293,6.707a1,1,0,0,1,1.414-1.414l6,6a1,1,0,0,1,0,1.414Z"
-            ></path>
-          </g>
-        </svg>
+            <!-- svg -->
+            <svg class="w-6" fill="#4a4b65" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M16.707,18.707a1,1,0,0,1-1.414-1.414L19.586,13H2a1,1,0,0,1,0-2H19.586L15.293,6.707a1,1,0,0,1,1.414-1.414l6,6a1,1,0,0,1,0,1.414Z">
+                    </path>
+                </g>
+            </svg>
 
-        <p class="text-[#4a4b65] text-md font-semibold mx-4">Tenerife (Canary Islands) | TFS</p>
-      </div>
+            <p class="text-[#4a4b65] text-md font-semibold mx-4">
+                Tenerife (Canary Islands) | TFS
+            </p>
+        </div>
 
-      <!-- scroll -->
+        <!-- scroll -->
+        <div class="flex flex-row justify-center items-center">
+            <!-- 1 -->
+            <div
+                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Thu 30, Apr</p>
 
-      <!-- time -->
+                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+            </div>
+            <!-- 2 -->
 
-      <!-- select button -->
+            <div class="flex flex-col justify-center items-center border border-[#c9c6d2] px-5 py-4 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Wed 01, May</p>
+
+                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+            </div>
+            <!-- 3 -->
+            <div class="flex flex-col justify-center items-center border border-[#f6b03c] px-5 py-2 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Thu 02, May</p>
+
+                <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
+                <!-- price -->
+                <p class="text-xs font-bold text-[#4d4f62]">$264</p>
+            </div>
+            <!-- 4 -->
+            <div
+                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Fri 03, May</p>
+
+                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+            </div>
+            <!-- 5 -->
+            <div class="flex flex-col justify-center items-center border border-[#f6b03c] px-5 py-2 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Sat 04, May</p>
+
+                <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
+                <!-- price -->
+                <p class="text-xs font-bold text-[#4d4f62]">$254</p>
+            </div>
+            <!-- 6 -->
+            <div
+                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2">
+                <!-- date -->
+                <p class="text-sm font-normal">Sun 05, May</p>
+
+                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+            </div>
+
+        </div>
+
+        <!-- time -->
+
+        <!-- select button -->
     </div>
-  </body>
+
+</body>
+
 </html>
