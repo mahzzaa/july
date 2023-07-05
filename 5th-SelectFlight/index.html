@@ -69,56 +69,59 @@
                     </g>
                 </svg>
             </button>
-            <!-- 1 -->
-            <div
-                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2 ml-3">
-                <!-- date -->
-                <p class="text-sm font-normal">Thu 30, Apr</p>
+            <div class="grid grid-cols-3 space-y-3 w-full sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6">
+                <!-- 1 -->
+                <div
+                    class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 rounded mt-3 mx-2 ml-3">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Thu 30, Apr</p>
 
-                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+                    <p class="text-xs text-[#abadb0] font-normal my-1 mb-0">No Flights</p>
+                </div>
+                <!-- 2 -->
+
+                <div class="flex flex-col justify-center items-center border border-[#c9c6d2] px-5 py-4 rounded mx-2">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Wed 01, May</p>
+
+                    <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+                </div>
+                <!-- 3 -->
+                <div class="flex flex-col justify-center items-center border border-[#f6b03c] px-5 py-2 rounded mx-2">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Thu 02, May</p>
+
+                    <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
+                    <!-- price -->
+                    <p class="text-xs font-bold text-[#4d4f62]">$264</p>
+                </div>
+                <!-- 4 -->
+                <div
+                    class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Fri 03, May</p>
+
+                    <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+                </div>
+                <!-- 5 -->
+                <div class="flex flex-col justify-center items-center border border-[#c9c6d2] px-5 py-2 rounded mx-2">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Sat 04, May</p>
+
+                    <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
+                    <!-- price -->
+                    <p class="text-xs font-bold text-[#4d4f62]">$254</p>
+                </div>
+                <!-- 6 -->
+                <div
+                    class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2 mr-3">
+                    <!-- date -->
+                    <p class="text-sm font-normal">Sun 05, May</p>
+
+                    <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
+                </div>
             </div>
-            <!-- 2 -->
 
-            <div class="flex flex-col justify-center items-center border border-[#c9c6d2] px-5 py-4 rounded mx-2">
-                <!-- date -->
-                <p class="text-sm font-normal">Wed 01, May</p>
-
-                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
-            </div>
-            <!-- 3 -->
-            <div class="flex flex-col justify-center items-center border border-[#f6b03c] px-5 py-2 rounded mx-2">
-                <!-- date -->
-                <p class="text-sm font-normal">Thu 02, May</p>
-
-                <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
-                <!-- price -->
-                <p class="text-xs font-bold text-[#4d4f62]">$264</p>
-            </div>
-            <!-- 4 -->
-            <div
-                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2">
-                <!-- date -->
-                <p class="text-sm font-normal">Fri 03, May</p>
-
-                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
-            </div>
-            <!-- 5 -->
-            <div class="flex flex-col justify-center items-center border border-[#c9c6d2] px-5 py-2 rounded mx-2">
-                <!-- date -->
-                <p class="text-sm font-normal">Sat 04, May</p>
-
-                <p class="text-xxs text-[#c3c2c6] font-semibold my-1">From</p>
-                <!-- price -->
-                <p class="text-xs font-bold text-[#4d4f62]">$254</p>
-            </div>
-            <!-- 6 -->
-            <div
-                class="flex flex-col justify-center items-center border border-[#f1f3f4] bg-[#f1f3f4] px-5 py-4 rounded mx-2 mr-3">
-                <!-- date -->
-                <p class="text-sm font-normal">Sun 05, May</p>
-
-                <p class="text-xs text-[#abadb0] font-normal my-1">No Flights</p>
-            </div>
 
             <button class=" border border-[#cfcfdb] border-r-0 rounded-r-none rounded-full pr-3 py-2 pl-2 ">
                 <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,8 +151,10 @@
 
             <!-- path -->
 
-            <div class="relative  border border-l-0 border-r-0 border-t-0 border-dashed border-[#d3d3d3] flex items-center justify-center">
-                <div class="absolute z-20 border border-[#d3d3d3] rounded-full flex items-center justify-center w-auto bg-white">
+            <div
+                class="relative  border border-l-0 border-r-0 border-t-0 border-dashed border-[#d3d3d3] flex items-center justify-center">
+                <div
+                    class="absolute z-20 border border-[#d3d3d3] rounded-full flex items-center justify-center w-auto bg-white">
                     <p class="text-xxxs text-[#a1a0a3] flex items-center justify-center px-2">6h 15m</p>
                 </div>
             </div>
@@ -164,7 +169,7 @@
                 <p class="text-xxs font-light tracking-tight uppercase">Tenerife (Canary Islands)</p>
             </div>
         </div>
-       
+
         <!-- select button -->
 
 
