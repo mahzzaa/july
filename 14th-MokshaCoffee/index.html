@@ -4,38 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
 </head>
 
 <body class="bg-[#2d2f31] flex justify-center  min-h-screen">
+    <div class="relative flex flex-col w-full">
+        <!-- navbar -->
 
-    <!-- navbar -->
+        <nav>
+            <ul class="flex justify-center items-center text-[#989a9b] text-xsm">
+                <li class=" mx-2">Our Story</li>
+                <!-- divider -->
+                <li class="bg-[#161819] w-2 h-2 mx-2">
 
-    <nav>
-        <ul class="flex justify-center items-center text-[#989a9b] text-xsm">
-            <li class=" mx-2">Our Story</li>
-            <!-- divider -->
-            <li class="bg-[#161819] w-2 h-2 mx-2">
-                
-            </li>
-            <li class=" mx-2">Food</li>
-            <li class="w-36 bg-white py-2 mx-2 shadow shadow-lg">
-                <img src="./Screenshot 2023-07-14 at 11.02.54 PM.png" alt="">
-            </li>
-            <li class=" mx-2">Coffee</li>
-            <!-- divider -->
-            <li class="bg-[#161819] w-2 h-2 mx-2">
+                </li>
+                <li class=" mx-2">Food</li>
+                <li class="w-36 bg-white py-2 mx-2 shadow shadow-lg">
+                    <img src="./Screenshot 2023-07-14 at 11.02.54 PM.png" alt="">
+                </li>
+                <li class=" mx-2">Coffee</li>
+                <!-- divider -->
+                <li class="bg-[#161819] w-2 h-2 mx-2">
 
-            </li>
-            <li class=" mx-2">Find us</li>
-        </ul>
-    </nav>
+                </li>
+                <li class=" mx-2">Find us</li>
+            </ul>
+        </nav>
 
-    <!-- header -->
+        <!-- header -->
 
-    <!-- gallery -->
+
+        <div
+            class="relative bg-[url('./coffee-shop-decor-mobile.jpeg')] bg-fixed bg-no-repeat bg-auto w-auto h-4/5 flex flex-col items-center justify-center">
+
+            <div class="absolute z-20 flex flex-col items-center justify-center w-3/5">
+                <p class=" text-white text-roboto text-4xl">OUR COFFEE</p>
+                <p class=" text-[#e1e0dd] text-md text-alumina font-semibold tracking-widest text-center leading-5 mt-8 w-7/12">When it comes
+                    to the important stuff - the
+                    coffee - we are
+                    committed to
+                    <!-- <br> -->
+                    sourcing and servingone of the highest quality and we believes nothing
+                    <!-- <br> -->
+                    short of best coffee possible.
+                </p>
+
+                <button class="text-roboto mt-20 text-white border-2 border-white px-6 py-3">
+                    Download our menu
+                </button>
+
+            </div>
+
+
+            <div class="absolute z-10 w-full h-full bg-[#2d2f31] opacity-70"></div>
+        </div>
+
+
+
+        <!-- gallery -->
+    </div>
+
 
 </body>
 
